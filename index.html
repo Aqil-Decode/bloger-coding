@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CodeCanvas | Tutorial Coding & Server</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style-blog.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo" onclick="showHome()">
+            <i class="fas fa-code"></i> CodeCanvas
+        </div>
+        <button class="hamburger" id="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+        <ul class="nav-links" id="navLinks">
+            <li><a onclick="showHome()"><i class="fas fa-home"></i> Home</a></li>
+            <li><a onclick="showHome()"><i class="fas fa-laptop-code"></i> Tutorial</a></li>
+            <li><a id="aboutLink"><i class="fas fa-user"></i> About</a></li>
+            <li><a id="logoutBtn"><i class="fas fa-sign-out-alt"></i> Logout</a></li>
+        </ul>
+    </nav>
+
+    <div class="container" id="app"></div>
+
+    <footer>
+        <div class="social-icons">
+            <a href="https://qill._.chillguy" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://wa.me/6285600631057" target="_blank"><i class="fab fa-whatsapp"></i></a>
+            <a href="https://athenapi.my.id" target="_blank"><i class="fab fa-dev"></i></a>
+        </div>
+        <p>CodeCanvas | Tutorial Coding & Server</p>
+        <p style="margin-top: 8px; font-size: 0.75rem;">© 2026</p>
+    </footer>
+
+    <script src="script-blog.js"></script>
+</body>
+</html>
